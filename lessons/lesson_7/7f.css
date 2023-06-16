@@ -1,0 +1,28 @@
+.email {
+    font-family: Arial;
+    color: rgb(100, 100, 100);
+    margin-top: 0;
+    margin-bottom: 7;
+}
+
+.search-bar {
+    border-radius: 3px;
+    border-width: 2px;
+}
+
+.condition {
+    font-family: Arial;
+    color: rgb(100, 100, 100);
+    font-size: 13px;
+    margin-top: 10;
+    margin-bottom: 7;
+}
+
+.join-button{
+    padding: 10px 70px;
+    background-color: rgb(124, 196, 245);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    
+}
