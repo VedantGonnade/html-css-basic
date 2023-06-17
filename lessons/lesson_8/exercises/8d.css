@@ -1,0 +1,24 @@
+input {
+    border-color: gray;
+    border-radius: 1px;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+    border-width: 1px;
+    border-radius: 4px;
+    width: 100px;
+}
+
+.email-box {
+    display: block;
+    width: 225px;
+}
+
+.sign-up-button {
+    width: 250px;
+    background-color: rgb(125, 168, 216);
+    padding: 10px 10px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+}
