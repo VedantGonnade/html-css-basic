@@ -1,0 +1,25 @@
+.feed-pic {
+    width: 35px;
+    vertical-align: center;
+    border-radius: 17px;
+}
+.feed-input {
+    vertical-align: top;
+    padding: 10px 10px;
+    border: none;
+}
+.tweet-button {
+    vertical-align: top;
+    padding: 10px 15px;
+    background-color: rgb(36, 139, 223);
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.opening-line {
+    margin-left: 10px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+    padding: 10px 10px;
+    display: inline-block;
+}
