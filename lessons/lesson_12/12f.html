@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>12f Exercise</title>
+    </head>
+    <style>
+        .flexbox {
+            display: flex;
+            flex-direction: row;
+            border-style: solid;
+            border-width: 1px;
+            border: none;
+            background-color: rgb(120, 82, 178);
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 15px;
+            
+        }
+        .section-left {
+            font-size: 20px;
+            color: white;
+        }
+
+        input {
+            width: 500px;
+            padding: 5px 10px;;
+            border: none;
+            border-radius: 20px;
+            height: 30px;
+            
+        }
+
+        .section-right {
+            margin-right: 20px;
+        }
+
+        .button {
+            padding: 10px 10px;
+            border-radius: 3px;
+            background-color: rgb(120, 82, 178);
+            border-color: white;
+            border-width: 1px;
+            border-style: solid;
+            color: white;
+        }
+    </style>
+    <body>
+        <div class="flexbox">
+            <div class="section-left">
+                Home
+            </div>
+            <div class="section-middle">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="section-right">
+                <button class="button">Download</button>
+            </div>
+        </div>
+    </body>
+</html>

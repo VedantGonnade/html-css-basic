@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>12e Exercise</title>
+        <style>
+           
+            .flex {
+                border-style: solid;
+                border-width: 1px;
+                border-radius: 4px;
+                border-color: rgb(100, 100, 100);
+
+            }
+
+            .inner-flex {
+                padding: 6px 12px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            .stats{
+                background-color: skyblue;
+                padding: 5px 10px;
+                border-radius: 10px;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex">
+            <div class="inner-flex">
+                <p>Home</p>
+                <p class="stats">14</p>
+            </div>
+
+            <div class="inner-flex">
+                <p>Notifications</p>
+                <p class="stats">3</p>
+            </div>
+
+            <div class="inner-flex">
+                <p>Messages</p>
+                <p class="stats">5</p>
+            </div>
+        </div>
+    </body>
+</html>
