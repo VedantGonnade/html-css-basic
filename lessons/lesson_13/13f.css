@@ -1,0 +1,45 @@
+p{
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    border: none;
+    width: 400px;
+}
+.picture {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+.flex-vertical{
+    display: flex;
+    flex-direction: column;
+}
+
+.video-description {
+    margin-left: 10px;
+    
+}
+
+.video {
+    border-color: rgb(200, 200, 200);
+    border-style: solid;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-width: 1px;
+    border-radius: 5px;
+    display: flex;
+    
+}
+
+.video-icon {
+    width: 70px;
+    height: 70px;
+    background-color: rgb(200, 200, 200);
+}
+
+.video-detail {
+    margin-left: 10px;
+    margin-top: 10px;
+}
