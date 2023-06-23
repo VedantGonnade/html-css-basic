@@ -12,6 +12,7 @@
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color: rgb(224, 220, 220);
+    z-index: 100;
 }
 
 .left-section {
@@ -94,6 +95,28 @@
 
 .upload-icon {
     height: 25px;
+}
+
+.notifications-icon {
+    height: 25px;
+}
+
+.notifications-icon-container {
+    position: relative;
+}
+
+.notifications-count {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgb(179, 6, 6);
+    border-radius: 20px;
+    font-family: Roboto, Arial;
+    padding: 0px 3px;
+    border-radius: 10px;
+    font-size: 11px;
+    color: white;
+    font-weight: 500;
 }
 
 .my-channel-icon {
