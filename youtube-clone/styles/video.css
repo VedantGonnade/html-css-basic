@@ -83,7 +83,7 @@
     transition: opacity 0.15;
     pointer-events: none; 
     white-space: nowrap;
-    font-family: Roboto, Arial;
+   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -129,7 +129,6 @@
     position: absolute;
     right: 5px;
     bottom: 8px;
-    font-family: Roboto, Arial;
     font-size: 12px;
     font-weight: 500;
     padding: 3px 3px;
