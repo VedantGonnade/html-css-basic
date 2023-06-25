@@ -7,7 +7,7 @@
     column-gap: 16px;
     row-gap: 40px;
 }
-
+/* @media is used to add style according to the page size, basically to make page responsive.*/
 @media (max-width: 768px) {
     .video-grid {
         grid-template-columns: 1fr 1fr;
@@ -83,7 +83,6 @@
     transition: opacity 0.15;
     pointer-events: none; 
     white-space: nowrap;
-   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -101,7 +100,6 @@
     display: flex;
     flex-direction: column;
     margin-left: 10px;
-    
 }
 
 .channel-owner .name{
